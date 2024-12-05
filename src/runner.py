@@ -1,4 +1,4 @@
-from model_service import ModalService
+from model.model_service import ModalService
 from loguru import logger
 
 @logger.catch

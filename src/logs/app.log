@@ -1,0 +1,112 @@
+2024-12-04 20:15:31.115 | INFO     | model:build_model:11 - Starting Building Model
+2024-12-04 20:15:31.134 | INFO     | preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 20:15:31.135 | INFO     | collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 20:15:31.191 | INFO     | preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 20:15:31.256 | INFO     | preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 20:15:31.267 | INFO     | model:get_X_y:32 - Defining X and y Variable
+2024-12-04 20:15:31.267 | INFO     | model:split_train_split:36 - Train and test split 
+2024-12-04 20:15:31.289 | INFO     | model:train_model:41 - Training the model with hyper parameters
+2024-12-04 20:16:16.553 | INFO     | model:evaluate_model:54 - Evaluating model performance. Score =0.6308688217022865
+2024-12-04 20:16:16.589 | INFO     | model:save_model:59 - Saving the model to dir models/rf_db_v1
+2024-12-04 20:16:16.650 | INFO     | model_service:load_model:16 - Checking the existence of model config at models/rf_db_v1
+2024-12-04 20:16:16.653 | INFO     | model_service:load_model:27 - Model exists config file loading
+2024-12-04 20:16:16.729 | INFO     | model_service:predict:34 - Making Prediction
+2024-12-04 20:16:16.786 | INFO     | __main__:main:12 - Prediction is [1850.03531343]
+2024-12-04 20:24:22.639 | INFO     | model:build_model:11 - Starting Building Model
+2024-12-04 20:24:22.641 | INFO     | preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 20:24:22.641 | INFO     | collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 20:24:22.691 | INFO     | preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 20:24:22.715 | INFO     | preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 20:24:22.724 | INFO     | model:get_X_y:32 - Defining X and y Variable
+2024-12-04 20:24:22.724 | INFO     | model:split_train_split:36 - Train and test split 
+2024-12-04 20:24:22.731 | INFO     | model:train_model:41 - Training the model with hyper parameters
+2024-12-04 20:24:50.916 | INFO     | model:evaluate_model:54 - Evaluating model performance. Score =0.734119064530135
+2024-12-04 20:24:50.932 | INFO     | model:save_model:59 - Saving the model to dir models/rf_db_v1
+2024-12-04 20:24:50.958 | INFO     | model_service:load_model:16 - Checking the existence of model config at models/rf_db_v1
+2024-12-04 20:24:50.965 | INFO     | model_service:load_model:27 - Model exists config file loading
+2024-12-04 20:24:51.025 | INFO     | model_service:predict:34 - Making Prediction
+2024-12-04 20:24:51.031 | INFO     | __main__:main:12 - Prediction is [2015.97304563]
+2024-12-04 22:11:45.872 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:11:45.880 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:11:45.880 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:11:45.937 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:11:45.962 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:11:45.963 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:11:45.963 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:11:45.971 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:12:25.321 | INFO     | model.pipeline.model:evaluate_model:54 - Evaluating model performance. Score =0.7525564336409827
+2024-12-04 22:12:25.351 | INFO     | model.pipeline.model:save_model:59 - Saving the model to dir models/rf_db_v1
+2024-12-04 22:16:10.574 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:16:10.574 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:16:10.574 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:16:10.607 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:16:10.624 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:16:10.632 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:16:10.632 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:16:10.641 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:16:37.968 | INFO     | model.pipeline.model:evaluate_model:54 - Evaluating model performance. Score =0.7692566791633395
+2024-12-04 22:16:38.001 | INFO     | model.pipeline.model:save_model:59 - Saving the model to dir models/rf_db_v1
+2024-12-04 22:22:03.324 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:22:03.324 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:22:03.324 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:22:03.341 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:22:03.357 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:22:03.357 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:22:03.357 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:22:03.365 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:22:20.913 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:22:20.913 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:22:20.913 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:22:20.939 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:22:20.955 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:22:20.955 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:22:20.962 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:22:20.966 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:23:42.533 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:23:42.533 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:23:42.538 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:23:42.589 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:23:42.615 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:23:42.622 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:23:42.622 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:23:42.634 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:24:09.110 | INFO     | model.pipeline.model:evaluate_model:54 - Evaluating model performance. Score =0.707575950725738
+2024-12-04 22:24:09.128 | INFO     | model.pipeline.model:save_model:59 - Saving the model to dir model/models/rf_db_v2
+2024-12-04 22:24:09.154 | INFO     | model.model_service:load_model:16 - Checking the existence of model config at model/models/rf_db_v2
+2024-12-04 22:24:09.154 | INFO     | model.model_service:load_model:27 - Model exists config file loading
+2024-12-04 22:24:09.156 | ERROR    | __main__:<module>:15 - An error has been caught in function '<module>', process 'MainProcess' (40332), thread 'MainThread' (42968):
+Traceback (most recent call last):
+
+> File "C:\Other\code\python_crash_course\ML_prod\src\runner.py", line 15, in <module>
+    main()
+    └ <function main at 0x000001921A806480>
+
+  File "C:\Other\code\python_crash_course\ML_prod\src\runner.py", line 8, in main
+    ml_svc.load_model()
+    │      └ <function ModalService.load_model at 0x000001923CB907C0>
+    └ <model.model_service.ModalService object at 0x000001923EA8C320>
+
+  File "C:\Other\code\python_crash_course\ML_prod\src\model\model_service.py", line 29, in load_model
+    self.model = pk.load(open(f'models/{settings.model_file_name}','rb'))
+    │    │       │  │                   │        └ 'rf_db_v2'
+    │    │       │  │                   └ Settings(data_file_name='rent_apartments.csv', data_dir='data', model_dir='model/models', model_file_name='rf_db_v2', rent_ap...
+    │    │       │  └ <built-in function load>
+    │    │       └ <module 'pickle' from 'C:\\Other\\Software\\annaconda\\Lib\\pickle.py'>
+    │    └ None
+    └ <model.model_service.ModalService object at 0x000001923EA8C320>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'models/rf_db_v2'
+2024-12-04 22:26:03.545 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-04 22:26:03.545 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-04 22:26:03.545 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-04 22:26:03.562 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-04 22:26:03.570 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-04 22:26:03.578 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-04 22:26:03.578 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-04 22:26:03.578 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-04 22:26:31.324 | INFO     | model.pipeline.model:evaluate_model:54 - Evaluating model performance. Score =0.7558142020013751
+2024-12-04 22:26:31.367 | INFO     | model.pipeline.model:save_model:59 - Saving the model to dir model/models/rf_db_v2
+2024-12-04 22:26:31.433 | INFO     | model.model_service:load_model:16 - Checking the existence of model config at model/models/rf_db_v2
+2024-12-04 22:26:31.436 | INFO     | model.model_service:load_model:27 - Model exists config file loading
+2024-12-04 22:26:31.515 | INFO     | model.model_service:predict:34 - Making Prediction
+2024-12-04 22:26:31.537 | INFO     | __main__:main:12 - Prediction is [1998.91664676]
