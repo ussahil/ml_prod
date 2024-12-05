@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ml-prod"
+version = "0.1.0"
+description = ""
+authors = ["sahil  <returnofsahil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.7"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+numpy = "^2.1.3"
+pydantic-settings = "^2.6.1"
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.36"
+pyodbc = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
