@@ -110,3 +110,17 @@ FileNotFoundError: [Errno 2] No such file or directory: 'models/rf_db_v2'
 2024-12-04 22:26:31.436 | INFO     | model.model_service:load_model:27 - Model exists config file loading
 2024-12-04 22:26:31.515 | INFO     | model.model_service:predict:34 - Making Prediction
 2024-12-04 22:26:31.537 | INFO     | __main__:main:12 - Prediction is [1998.91664676]
+2024-12-05 11:34:39.589 | INFO     | model.pipeline.model:build_model:11 - Starting Building Model
+2024-12-05 11:34:39.600 | INFO     | model.pipeline.preparation:prepare_data:8 - Starting Pre Process Pipeline
+2024-12-05 11:34:39.600 | INFO     | model.pipeline.collection:load_data_from_db:20 - Extracting the table from the database
+2024-12-05 11:34:39.680 | INFO     | model.pipeline.preparation:encode_cat_cols:23 - Encoding categorical columns {cols} 
+2024-12-05 11:34:39.713 | INFO     | model.pipeline.preparation:parse_garden_col:33 - Parsing Garden Column
+2024-12-05 11:34:39.720 | INFO     | model.pipeline.model:get_X_y:32 - Defining X and y Variable
+2024-12-05 11:34:39.723 | INFO     | model.pipeline.model:split_train_split:36 - Train and test split 
+2024-12-05 11:34:39.731 | INFO     | model.pipeline.model:train_model:41 - Training the model with hyper parameters
+2024-12-05 11:35:35.741 | INFO     | model.pipeline.model:evaluate_model:54 - Evaluating model performance. Score =0.7097898195146761
+2024-12-05 11:35:35.756 | INFO     | model.pipeline.model:save_model:59 - Saving the model to dir model/models/rf_db_v2
+2024-12-05 11:35:35.811 | INFO     | model.model_service:load_model:36 - Checking the existence of model config at model/models/rf_db_v2
+2024-12-05 11:35:35.816 | INFO     | model.model_service:load_model:47 - Model exists config file loading
+2024-12-05 11:35:35.889 | INFO     | model.model_service:predict:65 - Making Prediction
+2024-12-05 11:35:36.008 | INFO     | __main__:main:12 - Prediction is [2348.44440476]

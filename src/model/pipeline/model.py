@@ -1,13 +1,26 @@
+"""
+This module creates the pipeline for building ,training and saving the Ml model
+"""
+
+import pickle as pk
+
 from model.pipeline.preparation import prepare_data
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
-import pickle as pk
-from config.config import settings
 from loguru import logger
 
+from config.config import settings
 
-def build_model():
+
+def build_model()-> None:
+  """
+  Build , evaluate and save a RandomForestRegressor model
+  
+  Returns:
+    None
+  """
+  
   logger.info('Starting Building Model')
   pass
   # Load preprocess Dataset
